@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  comments: MyText
+  rating: 1
+  severity: 1
+  distance: 9.99
+  is_active: false
+
+two:
+  name: MyString
+  comments: MyText
+  rating: 1
+  severity: 1
+  distance: 9.99
+  is_active: false

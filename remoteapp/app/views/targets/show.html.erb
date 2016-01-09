@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @target.name %>
+</p>
+
+<p>
+  <strong>Comments:</strong>
+  <%= @target.comments %>
+</p>
+
+<p>
+  <strong>Rating:</strong>
+  <%= @target.rating %>
+</p>
+
+<p>
+  <strong>Severity:</strong>
+  <%= @target.severity %>
+</p>
+
+<p>
+  <strong>Distance:</strong>
+  <%= @target.distance %>
+</p>
+
+<p>
+  <strong>Is active:</strong>
+  <%= @target.is_active %>
+</p>
+
+<%= link_to 'Edit', edit_target_path(@target) %> |
+<%= link_to 'Back', targets_path %>
